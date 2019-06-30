@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--COMENTAMOS LA Toolbar PORQUE VAMOS A PASARLA A UN layout PARA PODER REUTILIZARLA-->
+    <!--<androidx.appcompat.widget.Toolbar
+        android:id="@+id/miToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="#FFFFFF"
+        />-->
+
+    <!--HACEMOS UN include PARA INCORPORAR EL layout DE LA Toolbar QUE ARMAMOS-->
+    <include layout="@layout/toolbar_layout"
+        android:id="@+id/toolbar_activity_main"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!"
+        android:gravity="center"/>
+
+</LinearLayout>

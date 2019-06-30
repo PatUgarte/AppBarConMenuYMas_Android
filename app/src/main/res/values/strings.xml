@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppBar</string>
+    <string name="nuevo_texto_appbar">Este es el título del AppBar</string>
+    <string name="titulo_perfil_appbar">Título Perfil AppBar</string>
+</resources>
