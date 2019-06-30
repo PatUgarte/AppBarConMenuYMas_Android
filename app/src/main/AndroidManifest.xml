@@ -21,12 +21,7 @@
         <activity
             android:name=".PerfilActivity"
             android:label="Perfil Activity"
-            android:parentActivityName=".MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <!--<meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="digitalhouse.com.appbar.MainActivity" />-->
-        </activity>
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".PerfilActivity">
 
-    <!--Hago un include para incorporar el Layout que armé-->
+    <!--VOLVEMOS A HACER UN include PARA INCORPORAR OTRA VEZ EL layout DE LA Toolbar QUE ARMAMOS-->
     <include layout="@layout/toolbar_layout"
         android:id="@+id/toolbar_activity_perfil"/>
 

@@ -6,4 +6,3 @@
     android:layout_height="?android:actionBarSize"
     android:background="@color/colorPrimary"
     app:titleTextColor="#FFFFFF" />
-    <!--android:id="@+id/miToolbar"-->
