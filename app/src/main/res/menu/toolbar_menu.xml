@@ -7,7 +7,7 @@
         android:id="@+id/perfil_item"
         android:title="Perfil"
         app:showAsAction="always"
-        android:icon="@drawable/ic_person_black_24dp"
+        android:icon="@drawable/ic_profile_white_24dp"
         android:iconTint="#FFFFFF"
         />
         <!--android:icon=""-->
@@ -15,6 +15,6 @@
         android:id="@+id/toast_item"
         android:title="Toast"
         android:icon="@drawable/ic_message_black_24dp"
-        app:showAsAction="never"/>
+        app:showAsAction="always"/>
 
 </menu>
